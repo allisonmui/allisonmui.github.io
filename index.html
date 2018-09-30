@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allison Mui —</title>
+    <!--styles-->
+    <link rel = "stylesheet" type = "text/css" href = "style.css"</link>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- icon-->
+    <link rel = "icon" href = "assets/images/me.png"</link>
+</head>
+
+<body>
+
+  <!-- making the navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" id = "nav_header"><img src = "assets/images/me.png" width = "40" height = "auto" id = "logo"></a>
+    </div>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ml-auto active">
+          <a class="nav-link here" href="index.html">Work<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link padding" href = "assets/images/MuiAllison_Resume.pdf" target="_blank">Resume</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link padding" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- introduction -->
+  <div class = "intro">
+    <div id = "greeting">Hi! I'm Allison —</div>
+    <div id = "greeting_descrip">I am an aspiring product designer studying at
+      <a class = "special_underline" href = "https://hcii.cmu.edu/">Carnegie Mellon University</a>.
+      This summer, I had the amazing opportunity to design at
+        <a class = "special_underline" href = "https://www.mongodb.com/cloud/stitch">MongoDB</a>.
+    </div>
+    <ul class = "links">
+      <li class = "links_li"><a class = "special_underline" href = "mailto: allisonmui9@gmail.com?Subject=Hi%20Allison!">Email</li></a>
+      <li class = "links_li"><a class = "special_underline" href = "https://www.linkedin.com/in/allison-mui/">LinkedIn</li></a>
+      <li class = "links_li"><a class = "special_underline" target="_blank" href = "assets/images/MuiAllison_Resume.pdf">Resume</li></a>
+    </ul>
+  </div>
+
+  <!-- projects section -->
+  <div class = "projects">
+    <!-- projects header  -->
+    <div id = "work_header">
+      <p>The Work —</p>
+    </div>
+    <!-- project container -->
+
+    <!-- project mongo -->
+    <div class = "project_container">
+      <a href = "mongo.html" class = "project_link">
+        <div class = "row no_padding">
+          <div class = "col-lg-6 col-md-12 col-sm-12 col-xs-12 no_padding">
+            <img src = "assets/images/mongo1.png" id = "pic">
+          </div>
+          <div class = "col-lg-6 col-md-12 col-sm-12 project_col no_padding">
+            <div class = "sub_padding">
+              <p class = "project_title">MongoDB Design</p>
+              <p class = "project_sub">Summer 2018 - Product Design</p>
+              <p class = "project_descrip">Working on Stitch, MongoDB's serverless platform, I had the opportunity to own two large scale projects
+                as well as work on several usability fixes.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- project water Connect -->
+    <div class = "project_container">
+      <a href = "wconnect.html" class = "project_link">
+        <div class = "row no_padding">
+          <div class = "col-lg-6 col-md-12 col-sm-12 no_padding">
+            <img src = "assets/images/connect_place.png" id = "pic">
+          </div>
+          <div class = "col-lg-6 col-md-12 col-sm-12 project_col no_padding">
+            <div class = "sub_padding">
+              <p class = "project_title">Water Connect</p>
+              <p class = "project_sub">Fall 2018 - UX Design - Responsive Web</p>
+              <p class = "project_descrip">WaterConnect is a peer economy platform that utilizes the strengths of communities
+                to mitigate frequent water contaimination crises.</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- project wilbur -->
+    <div class = "project_container">
+      <a href = "wilbur.html" class = "project_link">
+        <div class = "row no_padding">
+            <div class = "col-lg-6 col-md-12 col-sm-12 no_padding">
+              <img src = "assets/images/wilbur.png" id = "pic">
+            </div>
+            <div class = "col-lg-6 col-md-12 col-sm-12 project_col no_padding">
+              <div class = "sub_padding">
+                <p class = "project_title">Wilbur</p>
+                <p class = "project_sub">Fall 2018 - UX Design - Mobile</p>
+                <p class = "project_descrip">Wilbur is a mobile service that teaches teens financial literacy
+                  aspects through virtual credit scores and assisted parental conversations.</p>
+              </div>
+            </div>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <div class = "footer">
+    <div class = "copyright">
+      <p id = "footer_txt">© Created by Allison Mui with 💘</p>
+    </div>
+  </div>
+
+</body>

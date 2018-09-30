@@ -1,0 +1,408 @@
+
+/*WHOLE WEBSITE STYLING*/
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+html {
+  margin-top: 30px;
+}
+
+body {
+  font-family: "Akzidenz-Grotesk Std";
+  letter-spacing: 0.6px;
+}
+
+.navbar {
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-bottom: 40px;
+}
+
+#nav_header {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: -30px;
+}
+
+#logo {
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+ul {
+  /* styles bullets to be in line */
+  padding-left: 15px;
+}
+
+/* lots of space in between */
+li {
+  margin-top: 30px;
+}
+
+.padding {
+  margin-left: 20px;
+}
+
+
+.footer {
+  background-color: #FFFFFF;
+  /* back and copyright text in line */
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.copyright {
+  float: right;
+  margin-right: 14%;
+}
+
+/* to get back to work */
+.back {
+  float: left;
+  margin-left: 14%;
+}
+
+#back_link {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#footer_txt {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+/* no default styling for link font */
+.project_link {
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+}
+
+.project_link:hover{
+  text-decoration: none;
+  color: black;
+}
+
+
+/* HOME PAGE STYLING */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+.intro {
+  margin-left: 14%;
+}
+
+#greeting {
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+#greeting_descrip {
+  font-size: 16px;
+  margin-top: 40px;
+  font-weight: 200;
+  width: 50%;
+}
+
+
+.links {
+  padding-left: 0 !important;
+  margin-top: 20px;
+}
+
+.links li{
+  /* styling horizontal  */
+  display: inline-block;
+  font-weight: 200;
+  font-size: 14px;
+  padding-right: 40px;
+}
+
+/* for all links  */
+.special_underline {
+  color: #F26157;
+}
+
+/* style text */
+.special_underline:hover {
+  text-decoration: none;
+  color: #F26157;
+  font-weight: 200;
+  position: relative;
+}
+
+/* style underline */
+.special_underline:after {
+  content: '';
+  position: absolute;
+  margin-bottom: -3px;
+  border-bottom: 3px solid #F26157;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+}
+
+/* animate underline */
+.special_underline:hover:after {
+  width: 100%;
+  transition: 1s;
+}
+
+/* projects section */
+.projects {
+  background-color: #FCFCFC;
+  /* spacing between projects section and intro section */
+  margin-top: 40px;
+  /* padding for text */
+  padding-top: 60px;
+  padding-bottom: 40px;
+  /* automatic resizing of projects section */
+  width: 100%;
+}
+
+#work_header {
+  margin-left: 14%;
+  font-weight: 200;
+}
+
+/* styling for specific project page thumbnails */
+.project_container {
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  min-width: 100px;
+}
+
+.project_col {
+  background-color: #FFFFFF;
+}
+
+.no_padding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#pic {
+  width: 100%;
+}
+
+/* padding of text in information section of the projects container */
+.sub_padding {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+
+.project_title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.project_sub {
+  font-size: 14px;
+  font-weight: 200;
+  color: #5C5C5C;
+  margin-top: -5px;
+}
+
+.project_descrip {
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: -5px;
+}
+
+/* scaling the project container when hovered animation  */
+.project_container:hover {
+  box-shadow: 0 20px 20px rgba(227, 227, 227, 100);
+  transform: scale(1.01,1.01);
+  transition: all 0.4s ease-in-out;
+}
+
+/* ABOUT ME STYLING */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+.about_container {
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#about {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.about_text {
+  margin-left: 10%;
+}
+
+#about_title {
+  color: #F26157;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+#about_descrip {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+
+/* PROJECTS STYLING */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+#project_banner {
+  margin-top: 50px;
+}
+
+.proj_descrip {
+  /* padding on the sides */
+  margin-left: auto;
+  margin-right: auto;
+  /* limit length of text */
+  width: 55%;
+}
+
+/* index title style */
+.project_title {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* text styling - size, color, spacing */
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+/* title of project */
+.project_h1 {
+  color: #F26157;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* biggest project content heading */
+.project_h2 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 100px;
+}
+
+/* big content heading  */
+.project_h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* content subheading */
+.project_h4{
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* paragraph text - content information */
+.project_p {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+/* project date heading  */
+.project_h5 {
+  color: black;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.extra_bold {
+  font-weight: 600;
+}
+
+#content_pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+/* for when a paragraph starts after a picture */
+#p_afterpic {
+  margin-top: 40px;
+}
+
+/* for when a paragraph starts after a bullet */
+#p_afterbullet {
+  margin-top: 40px;
+}
+
+/*SPECIFIC STYLING SUPPORT FOR DIFFERENT BROWSER SIZES*/
+/*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  *//*  */
+
+/* styling that fixes margins on project descrip on index page - prevent white box from extending too long */
+@media only screen and (max-width: 1175px) {
+  .sub_padding {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* styling for about page */
+@media only screen and (max-width: 990px) {
+  .about_container {
+    margin-left: 14%;
+    margin-right: 14%;
+  }
+  .about_text {
+    margin-left: 0%;
+  }
+}
+
+/* general browser width support & index */
+/* ipad sizing */
+@media only screen and (max-width: 770px) {
+  #greeting_descrip {
+    width: 80%;
+  }
+  /* work pages */
+  .proj_descrip {
+    margin-left: 14%;
+    width: 75%;
+  }
+  #content_pic {
+    margin-left: 14%;
+    width: 75%;
+  }
+}
+
+/* iphone browser size */
+@media only screen and (max-width: 405px) {
+  #nav_header {
+    font-size: 14px;
+  }
+  .footer {
+    display: inline;
+  }
+
+  .copyright {
+    float: none;
+    margin-top: 20px;
+    margin-right: 0%;
+    margin-left: 14%;
+  }
+  .back {
+    float: none;
+  }
+}
