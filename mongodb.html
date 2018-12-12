@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allison Mui —</title>
+    <!--styles-->
+    <link rel = "stylesheet" type = "text/css" href = "style.css"</link>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- icon-->
+    <link rel = "icon" href = "assets/images/me.png"</link>
+</head>
+
+<body>
+
+  <!-- making the navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" id = "nav_header"><img src = "assets/images/me.png" width = "40" height = "auto" id = "logo">Hi! I'm Allison —</a>
+    </div>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ml-auto active">
+          <a class="nav-link here" href="index.html">Work<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link padding" href = "assets/images/MuiAllison_Resume.pdf" target="_blank">Resume</a>
+        </li>
+        <li class="nav-item ml-auto">
+          <a class="nav-link padding" href="about.html">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h1">MongoDB Product Design</p>
+        <p class = "project_h5">May 2018 - August 2018</p>
+        <p class = "project_p">This summer, I had the opportunity to intern as a
+        product designer for <a class = "special_underline" href = "https://www.mongodb.com/cloud/stitch" target="_blank">MongoDB Stitch</a>. Stitch is a
+        MongoDB's serverless platform, which allows developers to focus on what makes their app unique
+        instead of having to focus on the backend and infrastructure.</p>
+
+        <p class = "project_p">I worked on projects of all scales, from features to a whole day
+        of user research to small usability fixes. Here, I will go over my large scale projects, a metrics dashboard and a
+        dropdown flow, in greater detail. </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- project banner -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <img src = "assets/images/mongo_place_banner.png" width = "100%" id = "project_banner">
+      </div>
+    </div>
+  </div>
+
+  <!-- project content -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h2">Project #1: Consumption Metrics</p>
+        <!-- problem area -->
+        <p class = "project_h3">Problem Area</p>
+        <p class = "project_p">A Stitch user’s consumption is split up into compute and data transfer.
+          The user is given a free tier of 25GB of data to transfer.
+          For compute, the user has two options: compute GB-s or number of requests.
+          The user is given either a free tier of 100,000 GB-s or 1,000,000 requests.
+          The user will be billed once he has exceeded either the GB-s or requests threshold.</p>
+        <p class = "project_p">However, currently, there is no way for a user to see his/her Stitch usage.</p>
+        <!-- research -->
+        <p class = "project_h3">Research</p>
+        <p class = "project_p">To understand Stitch's competitive enviornment, I analyzed our main competitors,
+          looking for possible inspiration, difficulties, what they are doing well, maybe not so well, and what their users are saying about their product.
+          Next, I cross-referenced my findings and presented this to my manager and PM. After discussing, I drew the biggest takeaways and took that forward into my ideation process.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ideation -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h3">Ideation</p>
+        <p class = "project_p">After getting a good understanding of the project and
+        how our competitors are dealing with this problem, I concluded that I wanted our solution
+        to present both a quick summary as well as a way for the user to investigate further if he/she wanted to.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/mongo_id.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <!-- user test -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h3">User Research Feedback</p>
+        <p class = "project_p">After many ideation cycles, I finally landed on a medium fidelity mockup. I tested this design with 5 internal engineers.</p>
+        <p class = "project_p">I prepared a script along with specific metrics I was going to
+        observe for in order identify the design's success:</p>
+        <ul>
+          <li><p class = "project_p">How long it takes for the user to identify what
+            their current Stitch usage is.</p></li>
+          <li><p class = "project_p">How accurately user identifies their Stitch usage, how much, over, and close to their free tier.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/testing.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h4">Main Takeaways</p>
+
+        <ul>
+          <li><p class = "project_p">The quick summary took care of the design's success metrics.
+            However, it presented too much information and came off overwhelming.</p></li>
+          <li><p class = "project_p">There was confusion about how billing cycle and compute consumption works.</p></li>
+          <li><p class = "project_p">Quick summary was being used for a quick "Am I over the threshold"
+            scan versus the graph was used for "how."</p></li>
+          <li><p class = "project_p">The horizontal area + line graph was easier to analyze usage trend.</p></li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- latest iteration -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h3">Latest Iteration</p>
+        <p class = "project_p">After user testing, I went back into IA, touched up on the insights from the competitive analysis and user research,
+        and made sure I had very a clear understanding of the project's objectives.</p>
+        <p class = "project_p">Finally, I landed on this latest iteration.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/mongo_latest.png" width = "100%" id = "content_pic">
+      <img src = "assets/images/mongo_latest1.png" width = "100%" id = "content_pic">
+      <img src = "assets/images/mongo_latest2.png" width = "100%" id = "content_pic">
+      <img src = "assets/images/mongo_latest3.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h4">Prototype</p>
+        <p class = "project_p">In order to share my designs with the engineers and the product manager, I created an Invision prototype.
+          A walkthrough is provided in the video below. However, feel free to try
+          it out <a class = "special_underline" href = "https://mongodb.invisionapp.com/share/ZAMP0TNR5ND" target="_blank">here!</a></p>
+      </div>
+    </div>
+  </div>
+
+  <iframe id = "content_pic" width="500" height="450" src="https://www.youtube.com/embed/fhjl2lLs_AE"
+  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+  <!-- db collection  -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h2">Project #2: Trigger Dropdown Flow</p>
+        <!-- problem area -->
+        <p class = "project_h3">Problem Area</p>
+        <p class = "project_p">When users create a trigger, they must connect the trigger to a
+          database and collection source. Currently, our UI provides users raw text input fields.
+          However, after user testing at World, we observed this hindered the user’s experience.
+          Users found it tedious to manually type their database and collection name and difficult to
+          memorize the format of the names and the name itself.</p>
+        <p class = "project_p">Because of this problem, this project takes a greater
+          dive into improving this process with a dropdown component.</p>
+        <p class = "project_p">After investigating the problem area further, I realized that a user approaching this dropdown could have 4 different priorities:
+        creating a brand new database and collection, searching for a desired collection, creating a collection inside an existing
+        database, and searching for a desired collection that does not exist. These wide range of use cases added another
+        dimension of complexity into this dropdown. The four different user journeys are illustrated in the diagram below.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- user journey map  -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/userjourney.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <!-- research -->
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h3">Research</p>
+        <p class = "project_p">To explore how others are dealing with this problem, I explored on
+          dribbble, other cloud providers, and other MongoDB products.</p>
+        <p class = "project_p">Our current design solution is inspired by MongoDB Compass.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/comp_db.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <!-- user test feedback -->
+        <p class = "project_h3">User Test Feedback</p>
+        <p class = "project_p">Upon user testing at World, we identified key
+          pain points that call for change. These pain points include:</p>
+
+        <ul>
+          <li><p class = "project_p">Difficulty finding database/collection name.</p></li>
+          <li><p class = "project_p">Having to input raw text.</p></li>
+          <li><p class = "project_p">Can't remember exact format of database/collection name (ie: hypen vs. no hypen).</p></li>
+          <li><p class = "project_p">Can imagine the variety of difficult names users might have.</p></li>
+          <li><p class = "project_p">Broken flow - user has to leave page to get the name and then come back.</p></li>
+        </ul>
+
+        <p class = "project_h3">Ideations</p>
+        <p class = "project_p">To quickly experiment with ideas, I went through many iterations of low fidelity hand sketches.</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/id_db.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_p" id = "p_afterpic">Next, I moved on to medium fidelity mockups using MongoDB's already existing design patterns.</p>
+      </div>
+    </div>
+  </div>
+
+<div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/id1_db.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h3">Latest Iteration</p>
+        <p class = "project_p">After a lot of collaboration with my manager, presenting
+          at critiques with engineers and my design team, I landed at this latest iteration.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <img src = "assets/images/db_latest.png" width = "100%" id = "content_pic">
+      <img src = "assets/images/db_latest2.png" width = "100%" id = "content_pic">
+      <img src = "assets/images/db_latest3.png" width = "100%" id = "content_pic">
+    </div>
+  </div>
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h4">Prototype</p>
+        <p class = "project_p">In order to share my designs with the engineers and the product manager, I created an Invision prototype.
+          A walkthrough is provided in the video below. However, feel free to try
+          it out <a class = "special_underline" href = "https://mongodb.invisionapp.com/share/42NAKL1T8XB" target="_blank">here!</a></p>
+      </div>
+    </div>
+  </div>
+
+  <iframe id = "content_pic" width="500" height="450" src="https://www.youtube.com/embed/acnZcKovHKQ"
+  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+  <div class = "row no_padding">
+    <div class = "col-lg-12 col-md-12 col-sm-12 no_padding">
+      <div class = "proj_descrip">
+        <p class = "project_h2">Lessons Learned</p>
+        <ul>
+          <li><p class = "project_p">Small problems can actually be really big problems.
+          More often than not, usability fixes are the details. However, its the small details that take the user experience the extra mile.</p></li>
+          <li><p class = "project_p">The truth to "fail often to succeed sooner" and how failure teaches us a lot more than success.</p></li>
+          <li><p class = "project_p">The importance of communication, whether that be with your design team, your engineers, your manager, or your PM, throughout the entire project.</p></li>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <div class = "footer">
+    <div class = "back">
+      <a href = "index.html" class = "special_underline" id = "back_link">Back to Work</a>
+    </div>
+    <div class = "copyright">
+      <p id = "footer_txt">© Created by Allison Mui with 💘</p>
+    </div>
+  </div>
+
+</body>
