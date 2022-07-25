@@ -1,23 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Redirect,
+} from 'react-router-dom';
+
+// pages
+import Landing from './Landing';
+import About from './About';
+import Sidekick from './projects/Sidekick';
+import Guides from './projects/Guides';
+import DocsResearch from './projects/DocsResearch'
+import Publications from './Publications';
+import Locked from './Locked';
+
 
 function App() {
+  const [auth, setAuth] = useState(false)
+
+  const updateAuth = (value) => {
+    setAuth(value)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      { auth ? 
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<Landing />}/>
+          <Route path="/about" exact element={<About />}/>
+          <Route path="/sidekick" exact element={<Sidekick />}/>
+          <Route path="/guides" exact element={<Guides />}/>
+          <Route path="/docsresearch" exact element={<DocsResearch />}/>
+          <Route path="/publications" exact element={<Publications />}/>
+        </Routes>
+      </Router>
+      : 
+      <Locked updateAuth={updateAuth}/>
+      }
     </div>
   );
 }
