@@ -167,7 +167,7 @@ export default function Research() {
         <hr />
         <div className='mt-32'>
             <p className='mb-0'>Thanks for reading!</p>
-            <Link to='/work'><p className='mt-0 link'>Explore more work</p></Link>
+            <Link to='/'><p className='mt-0 link'>Explore more work</p></Link>
         </div>
     </div>
 
