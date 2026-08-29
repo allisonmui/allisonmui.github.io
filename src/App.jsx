@@ -8,10 +8,10 @@ import {
 import { useEffect } from "react";
 import avatarImg from "./assets/avatar.png";
 import aboutImg from "./assets/about.jpeg";
-import AheroImg from "./assets/ahero.png";
-import AheroCover from "./assets/ahero-cover.png";
+import AheroImg from "./assets/Ahero.png";
+import AheroCover from "./assets/Ahero-cover.png";
 import AheroPOCImg from "./assets/Ahero-POC.png";
-import AheroTestimonialsImg from "./assets/ahero-testimonials.png";
+import AheroTestimonialsImg from "./assets/Ahero-testimonials.png";
 import MDBImg from "./assets/MDB.png";
 import MDBCoverImg from "./assets/mdb-cover.png";
 import RPImg from "./assets/RP.png";
