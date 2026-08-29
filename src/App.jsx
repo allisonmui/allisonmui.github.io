@@ -8,7 +8,8 @@ import {
 import { useEffect } from "react";
 import avatarImg from "./assets/avatar.png";
 import aboutImg from "./assets/about.jpeg";
-import AheroImg from "./assets/ahero-cover.png";
+import AheroImg from "./assets/ahero.png";
+import AheroCover from "./assets/ahero-cover.png";
 import AheroPOCImg from "./assets/Ahero-POC.png";
 import AheroTestimonialsImg from "./assets/ahero-testimonials.png";
 import MDBImg from "./assets/MDB.png";
@@ -365,7 +366,7 @@ function AheroPage() {
           style={{ background: aheroThumbnailColor }}
         >
           <img
-            src={AheroImg}
+            src={AheroCover}
             alt="Ahero productivity app"
             className="case-study-image"
           />
