@@ -51,7 +51,7 @@ function SiteFooter() {
     <footer className="site-footer">
       <ResumeLink className="footer-link" />
       <a href="mailto:allisonmui9@gmail.com" className="footer-link">
-        Contact me: allisonmui9@gmail.com
+        Contact me @ allisonmui9@gmail.com
       </a>
     </footer>
   );
