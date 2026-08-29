@@ -28,6 +28,7 @@ import aboutTwoImg from "./assets/2.jpeg";
 import aboutThreeImg from "./assets/3.jpeg";
 import aboutFourImg from "./assets/4.jpeg";
 import aboutFiveImg from "./assets/5.jpeg";
+import resumePdf from "./assets/Resume.pdf";
 import "./App.css";
 
 const projectPalette = ["#d7d2d1", "#cfc7d1", "#e4dbd2", "#d9d9d7"];
@@ -37,12 +38,23 @@ const securityCenterVisualColors = ["#dfeaf8", "#cfc7d1", "#e4dbd2"];
 const aheroVisualColors = ["#dfeaf8", "#e9e2de", "#cfc7d1"];
 const aheroThumbnailColor = "#cfc7d1";
 
+function ResumeLink({ className }) {
+  return (
+    <a
+      href={resumePdf}
+      className={className}
+      target="_blank"
+      rel="noreferrer"
+    >
+      Resume
+    </a>
+  );
+}
+
 function SiteFooter() {
   return (
     <footer className="site-footer">
-      <NavLink to="/resume" className="footer-link">
-        Resume
-      </NavLink>
+      <ResumeLink className="footer-link" />
       <a href="mailto:allisonmui9@gmail.com" className="footer-link">
         Contact me: allisonmui9@gmail.com
       </a>
@@ -109,9 +121,7 @@ function HomePage() {
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
-          Resume
-        </NavLink>
+        <ResumeLink className="nav-link" />
       </nav>
 
       <header className="top-bar">
@@ -204,9 +214,7 @@ function AtlasResourcePoliciesPage() {
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
-          Resume
-        </NavLink>
+        <ResumeLink className="nav-link" />
       </nav>
 
       <main className="case-study-page">
@@ -337,9 +345,7 @@ function AheroPage() {
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
-          Resume
-        </NavLink>
+        <ResumeLink className="nav-link" />
       </nav>
 
       <main className="case-study-page">
@@ -472,9 +478,7 @@ function AtlasSecurityCenterPage() {
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
-          Resume
-        </NavLink>
+        <ResumeLink className="nav-link" />
       </nav>
 
       <main className="case-study-page">
@@ -603,9 +607,7 @@ function MongoDBPage() {
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
-          Resume
-        </NavLink>
+        <ResumeLink className="nav-link" />
       </nav>
 
       <main className="case-study-page">
@@ -678,9 +680,7 @@ function AboutPage() {
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
-          Resume
-        </NavLink>
+        <ResumeLink className="nav-link" />
       </nav>
 
       <div className="about-page">
@@ -737,9 +737,7 @@ function ResumePage() {
         <NavLink to="/about" className="nav-link">
           About
         </NavLink>
-        <NavLink to="/resume" className="nav-link">
-          Resume
-        </NavLink>
+        <ResumeLink className="nav-link" />
       </nav>
 
       <div className="page-content">
