@@ -40,12 +40,7 @@ const aheroThumbnailColor = "#cfc7d1";
 
 function ResumeLink({ className }) {
   return (
-    <a
-      href={resumePdf}
-      className={className}
-      target="_blank"
-      rel="noreferrer"
-    >
+    <a href={resumePdf} className={className} target="_blank" rel="noreferrer">
       Resume
     </a>
   );
